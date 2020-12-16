@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{322AE35C-E5E6-481F-A8E8-480C860D1451}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SearchWeather.cs">
+    <Files>
+      <File FileName="Pages/Index.razor" Line="5" Column="35" />
+      <File FileName="../UnitTestWeather/UnitTestWeather.cs" Line="17" Column="6" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="SearchWeather.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorX00147161Weather" expanded="True">
+            <Node name="BlazorWeather" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="SearchWeather.cs" selected="True" />
+            </Node>
+            <Node name="UnitTestWeather" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BlazorWeather" expanded="True">
+            <Node name="UnitTestWeather" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlazorWeather PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

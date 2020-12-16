@@ -1,0 +1,174 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/PLvWPXOi6KeJX8yVE38jlY5h4GBXcmY-1Q7-fisNpcw=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/BlazorWeather.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorWeather.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/EYcr__CC2qJC-EGv_yjHTTsM8fbEfFJ2VZvKAVgCLt4=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/MatBlazor.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/MatBlazor.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/1F3QpAFcbx3o1cZ_dBHJUAS2eIyMqGSbB_s65OEaZsU=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/6BPu9bDGowpjlMhbsf2DfFm1PDh30nvIOQJ6ylXWnPs=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/2twbhq60kGIs2UPyq35mY_izfwJDfaZg1dW4NCLITOs=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/8VGh9rATb7aYM3KxII6RxhMyuqBtRCG9SvT2TkK-8-8=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/jzHgXWAvWMkKIGFjZoT84tbe72E_H7CvTr-Dryh4QPs=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/6RcxlUFfbUR-Q6huRhgeQq_FptpzNJzeLMOPWAUcW5w=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/Nxk2N4TaW1rdny_6Gzfz8QnKFWuCirhrNTrqcmX4vAc=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/b1dnT8TAyglykUt4z99IBX3gx5Q_BtdSrAMVgbbdT7k=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/QYPo7sX0CZwkDEhIkIOaaIJ3Swc30PSLLlUl9KwVXvM=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/iI1iSjDaPrpUusvP1PloaJyHuhyI6yti2c649pScE5k=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/QQL3UvVvDqaWjrCZWN4QiH0TWm_j9pwQL7y61zcc414=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/lnIIAk5tjtYlpm6pEZBxlRs4_vy281JDPBJbRAt3L04=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Logging.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/oSZ8K2BHgay4Kp60ToaU_nOgH2eF1QF4BXN3b0QkR_g=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/KvIlSV52JJYeGssNnmm3cJTOBzwomTJJ3bn9Ce2hp38=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/013wMOK1MvLgmdxofdpnApwyLSHcVh_oUTRjaRQKbig=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.JSInterop.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/18OMRTwa5nqCBae1yO9Q1OHvuDdFqnLlYjDFhdd5gsk=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/q7MbiyxbqQjmzoUOpqzrj5k4UZmu1L4DpzozIW1iE9E=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/mscorlib.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/6wfjqTxymIuqtkrRPDXbZHLEzn69FEy3yqniSk-33mw=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Core.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/rJSKacKHxtJi1HpM-QpZ5t5W_51k6dwpRP45a8Jd04Q=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/DGvSj1nc928gpH-AUI-VMRgZdnYdSKryvdxTfSbmggs=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/kG_ZPLg5nUX-i5Gd6bpjajubrECgzhX0VgAvkDEvDwM=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/8Mglk4tag8-WcGTOHK3m-zWB1z_g5IU2j9TMPDDHydk=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/Fyrk5hQ6igS4mF6JcZQ-K4P74mud0TUKfAYYMIsir_o=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/dvkbwsEs9hdTtSrDMOKvjE2vj4YSpHXvLe2q_0jUQRM=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Runtime.Serialization.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Runtime.Serialization.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/RreVGQsFe7VeTslXqOcMy_ePXVf3WCGOasLu1M3EDtw=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Text.Encodings.Web.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/d0MR7Jt3aee6g2uPTnn7UaVNBmBOXth0wbEbC8Wly60=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/System.Text.Json.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/1AC60rOuFmHezf_isgXMULGrTtDH8GxKbL4gBHAY9II=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/linker\/WebAssembly.Bindings.dll",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "\/Users\/mothannaaz\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.3.2.0.js",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "\/Users\/mothannaaz\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.timezones.dat",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "\/Users\/mothannaaz\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.wasm",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "\/Users\/mothannaaz\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.build\/3.2.1\/tools\/blazor\/blazor.webassembly.js",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\/Release\/netstandard2.1\/integrity\/SnMKrHod_B9zUDPpF_l6_lkkBO9Q6u0Dr_w8YaFyQhI=.hash",
+      "Source": "\/Users\/mothannaaz\/Documents\/X00147161 EAD CA3\/BlazorWeather\/obj\/Release\/netstandard2.1\/blazor\/blazor.boot.json",
+      "Target": "obj\/Release\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
+    }
+  ]
+}

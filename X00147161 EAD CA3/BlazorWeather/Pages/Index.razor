@@ -1,0 +1,174 @@
+﻿@page "/"
+@inject HttpClient Http
+
+@code {
+    public static WeatherForecast forecast;
+    public  IEnumerable<CITYINFO> Cities { get; set; }
+    public CITYINFO CityFilter { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Cities = await Http.GetFromJsonAsync<CITYINFO[]>("sample-data/WorldCities.json");
+    }
+
+    public  async Task Search()
+    {
+        forecast = await Http.GetFromJsonAsync<WeatherForecast>("https://api.openweathermap.org/data/2.5/weather?q=" + CityFilter.name + "&units=metric&appid=42b398a37d7e841f3dca83e63bf75710");
+    }
+
+    public async Task DoSearch(string city)
+    {
+
+        forecast = await Http.GetFromJsonAsync<WeatherForecast>("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=42b398a37d7e841f3dca83e63bf75710");
+    }
+    public class CITYINFO
+    {
+        public string country { get; set; }
+        public int geonameid { get; set; }
+        public string name { get; set; }
+        public string subcountry { get; set; }
+    }
+
+    public class Coord
+    {
+        public double lon { get; set; }
+        public double lat { get; set; }
+    }
+
+    public class Weather
+    {
+        public int id { get; set; }
+        public string main { get; set; }
+        public string description { get; set; }
+        public string icon { get; set; }
+    }
+
+    public class Main
+    {
+        public double temp { get; set; }
+        public int pressure { get; set; }
+        public int humidity { get; set; }
+        public double temp_min { get; set; }
+        public double temp_max { get; set; }
+    }
+
+    public class Wind
+    {
+        public double speed { get; set; }
+        public int deg { get; set; }
+    }
+
+    public class Clouds
+    {
+        public int all { get; set; }
+    }
+
+    public class Sys
+    {
+        public int type { get; set; }
+        public int id { get; set; }
+        public double message { get; set; }
+        public string country { get; set; }
+        public int sunrise { get; set; }
+        public int sunset { get; set; }
+    }
+
+    public class WeatherForecast
+    {
+        public Coord coord { get; set; }
+        public List<Weather> weather { get; set; }
+        public string @base { get; set; }
+        public Main main { get; set; }
+        public int visibility { get; set; }
+        public Wind wind { get; set; }
+        public Clouds clouds { get; set; }
+        public int dt { get; set; }
+        public Sys sys { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public int cod { get; set; }
+    }
+}
+
+
+@if (Cities == null)
+{
+    <p><em>Loading Cities...</em></p>
+    <div class="spinner"></div>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="margintop30">
+                    <MatAutocompleteList Items="@Cities" TItem="CITYINFO" Label="City Name" @bind-Value="CityFilter" CustomStringSelector="(i=>i.name)" FullWidth="true" Outlined="true" ShowClearButton></MatAutocompleteList>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <button class="btn btn-info float-right" Style="margin-top:10px;" @onclick="Search">Search</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    @if (forecast != null)
+    {
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 form-control">
+                    City: @forecast.name
+                </div>
+                <div class="col-md-3 form-control">
+                    Country: @forecast.sys.country
+                </div>
+                <div class="col-md-3 form-control">
+                    Weather : @forecast.weather[0].main
+                </div>
+                <div class="col-md-3 form-control">
+                    Description: @forecast.weather[0].description
+                </div>
+                <div class="col-md-3 form-control">
+                    Latitude: @forecast.coord.lat
+                </div>
+                <div class="col-md-3 form-control">
+                    Longitude: @forecast.coord.lon
+                </div>
+                <div class="col-md-3 form-control">
+                    Temp: @forecast.main.temp
+                </div>
+                <div class="col-md-3 form-control">
+                    Pressure: @forecast.main.pressure
+                </div>
+                <div class="col-md-3 form-control">
+                    Humidity: @forecast.main.humidity
+                </div>
+                <div class="col-md-3 form-control">
+                    Temp Min: @forecast.main.temp_min
+                </div>
+                <div class="col-md-3 form-control">
+                    Temp Max: @forecast.main.temp_max
+                </div>
+                <div class="col-md-3 form-control">
+                    Wind Speed: @forecast.wind.speed
+                </div>
+                <div class="col-md-3 form-control">
+                    Wind Deg: @forecast.wind.deg
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-6">
+                    @{
+                        string path = string.Format("http://openweathermap.org/img/wn/{0}@2x.png", @forecast.weather[0].icon);
+                    }
+                    <img src="@path" class="form-control" style="width:100px;height:100px;" />
+
+                </div>
+            </div>
+        </div>
+    }
+}
+

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Blazorx00147161" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/mothannaaz/Documents/X00147161\ EAD\ CA3/BlazorWeather/obj/Release/netstandard2\.1/PubTmp/Out/$" />
+  </parameter>
+</parameters>
